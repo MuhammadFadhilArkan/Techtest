@@ -1,0 +1,4 @@
+Insights about the data : 
+1. The data distribution of temperature and vibration is significantly different, so we need to normalize the data
+2. The data has unbalanced label of 0 and 1. So, the train_test split must be done correctly bu using "stratisfy" option on sklearn split function
+3. Because the data is unbalanced, the metrics we should use to quantify the performance is f1 score
